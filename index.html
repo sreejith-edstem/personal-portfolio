@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- or -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <title>Sreejith S</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <!-- Favicons -->
+          <link rel="icon" type="image/x-icon" href="assets/img/logo.ico">        
+        </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Sreejith S</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#Experience" class="nav__link">Experience</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hey,<br>I'am <span class="home__title-color">Sreejith S</span><br>Software Engineer</h1>
+
+                    <a href="https://drive.google.com/file/d/1wjaeN-mewvCMtjVwX4xMZmMc38vBJ1a5/view" class="button">
+                        <i class="bx bx-file" style="color: #fffdfd;"></i>
+                            <span>Resume</span>    
+                    </a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://github.com/sreejith-edstem" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.linkedin.com/in/sreejith-s-10577024a/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:sreejithsobhi@gmail.com" class="home__social-icon"><i class='bx bxl-gmail' ></i></a>
+                    <a href="https://www.instagram.com/sreejiiiab/?hl=en" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask1" mask-type="alpha">
+                            <path d="M300,50 C400,100 450,200 400,300 C350,400 250,450 150,400 C50,350 50,250 150,150 C200,100 200,0 300,50 Z"/>
+                        </mask>
+                        <g mask="url(#mask1)">
+                            <path d="M300,50 C400,100 450,200 400,300 C350,400 250,450 150,400 C50,350 50,250 150,150 C200,100 200,0 300,50 Z" fill="#0d6efd"/>
+                            <image class="home__blob-img" x="20" y="50" width="500" height="500" href="assets/img/perfil.png"/>
+                        </g>
+                    </svg>
+                </div>
+                
+                
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div class="about-container about__img about-info">
+                            <div>
+                                <h2 class="about__subtitle">I'am Sreejith S</h2>
+                                <p class="about__text">
+                                    As an IT professional with 1.5 years of experience, I specialize in software development, analysis, and maintenance in web-based environments. My expertise includes backend technologies like Java, Spring Boot, Postgres, and AWS, enhancing my capabilities in creating robust and scalable solutions. Proficient in Scrum and Agile methodologies, I excel at collaborating with teams to deliver high-quality solutions efficiently and adaptively, ensuring alignment with project goals and stakeholder expectations.</p>           
+                            </div>
+                    </div>
+                                                     
+                </div>
+            </section>
+
+             <!--===== EXPERIENCE =====-->
+             <section class="about section " id="Experience">
+                <h2 class="section-title">Experience</h2>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/retro.png" alt="">
+                        <br />
+                        <!-- <span style="margin-right: 20px;"></span> -->
+                        <img src="assets/img/mattsco.webp" alt="">
+                    </div>
+                    
+                    <div class="about-container about__img about-info">
+                            <div>
+                                <h2 class="about__subtitle">Edstem Technologies</h2>
+                                <p class="text">February 2023 - Present</p>
+                                <h3 class="about__subtitle">Project: Retro-Flow</h3>
+                                <p class="about__text">
+                                    In my role, I developed APIs from the ground up in RetroFlow, a SaaS app that
+enables agile teams to effectively manage and run Sprint Retrospectives
+in a single place, using Java, Spring Boot, PostgreSQL, JPA, and AWS.
+Implemented granular permission and role-based access control using
+Spring Security,resulting in enhanced data security, user privacy, and a
+20% reduction in security vulnerabilities through proactive measures,
+audits, and best practices.
+Implemented token generation during login using Spring Security,
+bolstering authentication mechanisms and reinforcing user access
+controls, contributing to enhanced security measures in the RetroFlow
+system</p>
+<h3 class="about__subtitle">Project: MAGIQ</h3>
+                                <p class="about__text">
+                                    Developed APIs from scratch in Magiq, a web application for Mattsco,
+                                    using Java, Spring Boot, and Microsoft SQL Server. Mattsco supplies line
+                                    pipe, flanges, fittings, and valves in carbon steel, stainless steel, and alloy.
+                                    Developed a comprehensive order management system allowing
+                                    customers to place orders with details such as customerinformation
+                                    (name, date, address) and item specifics (description, notes, quantity
+                                    needed).
+                                    Implemented functionality to automatically send order confirmation
+                                    emails to customers with detailed order summaries.
+                                    Implemented functionality to handle out-of-stock items by procuring
+                                    from other vendors, capturing detailed vendorinformation to ensure
+                                    timely delivery, and enhancing operational efficiency and customer
+                                    satisfaction through effective vendor management and inventory
+                                    tracking.</p>           
+                            </div>
+                            
+                    </div>
+                                                     
+                </div>
+            </section>
+            
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills__container bd-grid">
+                    <h2 class="skills__subtitle">Professional Skills</h2>
+                </div>
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="bx bxl-java skills__icon"></i>
+                                <span class="skills__name">Java</span>
+                            </div>
+                            <div class="skills__bar skills__java">    
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-spring-boot skills__icon'></i>
+                                <span class="skills__name">Springboot</span>
+                            </div>
+                            <div class="skills__bar skills__springboot">    
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-postgresql skills__icon'></i>
+                                <span class="skills__name">Postgres</span>
+                            </div>
+                            <div class="skills__bar skills__postgres">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-git skills__icon'></i>
+                                <span class="skills__name">Git</span>
+                            </div>
+                            <div class="skills__bar skills__git">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div >   
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-aws skills__icon'></i>
+                                <span class="skills__name">AWS</span>
+                            </div>
+                            <div class="skills__bar skills__aws"></div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-apache skills__icon'></i>
+                                <span class="skills__name">Apache Kafka</span>
+                            </div>
+                            <div class="skills__bar skills__kafka"></div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data" >
+                            <div class="skills__names">
+                                <i class='bx bxl-docker skills__icon'></i>
+                                <span class="skills__name">Docker</span>
+                            </div>
+                            <div class="skills__bar skills__docker"></div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <!-- <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5 & CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__html_css">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div> -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img width="32" height="40" src="https://img.icons8.com/fluency/48/canva.png" alt="Canva Icon" class="skills__icon">
+                                <span class="skills__name">Canva</span>
+                            </div>
+                            <div class="skills__bar skills__canva">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                    </div>        
+                    
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form id="submit-form" action=""  class="contact__form">
+                        <input placeholder="Name" type="text" name="name" required ="Name" class="contact__input">
+                        <input placeholder="Email" type="email" name="email" required ="Email" class="contact__input">
+                        <input placeholder="Subject" type="text" name="subject" required ="Subject" class="contact__input">
+                        <textarea placeholder="Tell me..." required ="topic" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="submit" value="send" class="contact__button button">
+
+                    </form>
+                </div>
+            </section>
+        </main>
+        
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Sreejith S</p>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/contact.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
+        <script>
+            $("#submit-form").submit((e)=>{
+                e.preventDefault()
+                $.ajax({
+                    url:"https://script.google.com/macros/s/AKfycbxs_FahGjDxINsfMNXfUUcDHwFi08igdAQNBOcT6Vz21o9qXGrJhRMrCXBnCuZhZZg8BQ/exec",
+                    data:$("#submit-form").serialize(),
+                    method:"post",
+                    success:function (response){
+                        alert("Form submitted successfully")
+                        window.location.reload()
+                        //window.location.href="https://google.com"
+                    },
+                    error:function (err){
+                        alert("Something Error")
+        
+                    }
+                })
+            })
+        </script>
+    </body>
+</html>
